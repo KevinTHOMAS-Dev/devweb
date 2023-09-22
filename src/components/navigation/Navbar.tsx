@@ -1,4 +1,5 @@
 import { Navlinks } from "@/constants";
+
 import Navitem from "./Navitem";
 
 

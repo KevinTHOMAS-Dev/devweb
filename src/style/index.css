@@ -16,6 +16,10 @@ a {
 nav {
   position: absolute;
   bottom: 0;
+  background-color: beige;
+  border: 2 solid;
+  width: 100%;
+  padding: 20px 5px;
 }
 nav ul {
   display: flex;
