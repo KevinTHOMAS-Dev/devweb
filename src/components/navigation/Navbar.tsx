@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav>
             <ul>
-                {Navlinks.map((item, index) => <Navitem key={index} item= {item}/>)}
+                {Navlinks.map((item, index) => <Navitem key={index}  item={item} />)}
             </ul>
         </nav>
     );

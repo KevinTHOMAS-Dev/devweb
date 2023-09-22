@@ -1,17 +1,20 @@
+"use client";
 
-
-import Image from "next/image";
 import  Link  from "next/link"
+import { Children, useState } from "react";
+import Dropmenu from "./Dropmenu";
 
-const Navitem = ({item}:any) => {
+
+const Navitem = ( {item}:any )=> {
+
+    const [ open, setOpen ] = useState(false);
+
     return (
-        <li>
+        <li onMouseEnter={() => setOpen(!open)} onMouseLeave={() => setOpen(!open)} >
             <Link href={item.link}>
-                {item.image ? (
-                    <Image src={item.image} width={40} height={40} alt={item.name}/>
-                ) : item.name}
-                
+                {item.image ? item.image : item.name}
             </Link>
+            { item.child ?  open && <Dropmenu items={item.child} /> : null }
         </li>
     );
 };
