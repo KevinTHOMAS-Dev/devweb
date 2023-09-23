@@ -1,7 +1,8 @@
 "use client";
 
-import  Link  from "next/link"
 import { useState } from "react";
+import  Link  from "next/link"
+
 import Dropmenu from "./Dropmenu";
 
 
@@ -13,7 +14,7 @@ const Navitem= ( {item}:any )=> {
     return (
         <li onMouseEnter={() => setOpen(!open)} onMouseLeave={() => setOpen(!open)} >
             <Link href={item.link}>
-                {item.image ? item.image : item.title}
+                {item.icon ? item.icon : item.title}
             </Link>
             { item.submenu ?  open && <Dropmenu items={item.submenu} /> : null }
         </li>

@@ -1,8 +1,9 @@
 import "../style/index.css";
 
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Navbar from "@/components/navigation/Navbar";
+import Widgetpanel from "@/components/Widgetpanel";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "DevWeb",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Header/>
         <Navbar/>
         <main>{children}</main>
+        <Widgetpanel/>
         <Footer/>
       </body>
     </html>

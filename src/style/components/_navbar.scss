@@ -1,12 +1,12 @@
 nav{
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    background-color: beige;
+    background: linear-gradient(200deg, #bf7b0dd8 30%, rgba(53,81,170,0.8855917366946778) 70%);
     border: 2 solid;
     width: 100%;
     padding: 20px 5px;
     ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }

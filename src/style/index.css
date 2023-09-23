@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(160deg, #043b6e 40%, #fea101 90%);
+}
+
 li {
   list-style: none;
-  padding: 10px;
 }
 
 a {
@@ -15,14 +18,28 @@ a {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  background-color: beige;
+  background: linear-gradient(200deg, rgba(191, 123, 13, 0.8470588235) 30%, rgba(53, 81, 170, 0.8855917367) 70%);
   border: 2 solid;
   width: 100%;
   padding: 20px 5px;
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.widget {
+  position: absolute;
+  right: 0;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.295);
+  border-radius: 10px 0 0 10px;
+}
+
+footer {
+  margin-bottom: 100px;
 }/*# sourceMappingURL=index.css.map */
