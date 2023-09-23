@@ -17,6 +17,21 @@ a {
   color: black;
 }
 
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+header ul li {
+  padding: 10px;
+}
+
 nav {
   position: fixed;
   bottom: 0;
@@ -31,7 +46,7 @@ nav ul {
 }
 
 .widget {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 300px;
   display: flex;

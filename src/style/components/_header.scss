@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        li{
+            padding: 10px;
+        }
+    }
+}
