@@ -5,6 +5,10 @@
 }
 
 body {
+  margin: 0 30px;
+}
+
+body {
   background: linear-gradient(160deg, #043b6e 40%, #fea101 90%);
 }
 
@@ -19,7 +23,7 @@ a {
 
 header {
   display: flex;
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 header ul {
@@ -43,6 +47,13 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-around;
+}
+
+.home .main_home {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 .widget {
