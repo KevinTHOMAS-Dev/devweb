@@ -11,9 +11,11 @@ body{
 $yaleblue: #043b6e;
 $purpureus: #aa35a4;
 $orangepeel: #fea101;
+$white: white;
 
 body {
   background: linear-gradient(160deg, $yaleblue 40%, $orangepeel 90%);
+  color: $white;
 }
 li {
   list-style: none;
