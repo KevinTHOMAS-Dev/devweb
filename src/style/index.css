@@ -1,3 +1,15 @@
+@font-face {
+  font-family: arizonia;
+  src: url(../assets/fonts/Arizonia-Regular.ttf);
+}
+@font-face {
+  font-family: lato;
+  src: url(../assets/fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: italianno;
+  src: url(../assets/fonts/Italianno-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -5,12 +17,10 @@
 }
 
 body {
-  margin: 0 30px;
-}
-
-body {
   background: linear-gradient(160deg, #043b6e 40%, #fea101 90%);
   color: white;
+  margin: 0 30px;
+  font-family: lato, sans-serif;
 }
 
 li {
@@ -45,6 +55,7 @@ nav {
   background: linear-gradient(200deg, rgba(191, 123, 13, 0.8470588235) 30%, rgba(53, 81, 170, 0.8855917367) 70%);
   border: 2 solid;
   width: 100%;
+  left: 0;
   padding: 20px 5px;
 }
 nav ul {
